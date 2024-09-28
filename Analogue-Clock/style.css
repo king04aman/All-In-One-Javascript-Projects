@@ -1,0 +1,20 @@
+/* Set body background and use flexbox to center the canvas */
+body {
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Ensure the canvas is centered within its container */
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+}
