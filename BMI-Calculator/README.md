@@ -25,7 +25,7 @@ No external libraries or packages are required for this project. It only uses HT
 ## Installing Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/All-In-One-Javascript-Projects.git
+   git clone https://github.com/king04aman/All-In-One-Javascript-Projects.git
     ```
 2. Navigate to the project directory:
     ```bash
