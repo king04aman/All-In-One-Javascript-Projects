@@ -16,12 +16,12 @@ No external libraries or packages are required for this project. It is built wit
 
 ## Installing Instructions
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/All-In-One-Javascript-Projects.git
+    ```bash
+    git clone https://github.com/king04aman/All-In-One-Javascript-Projects.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd All-In-One-Javascript-Projects/Pop-the-Balloons
+    cd All-In-One-Javascript-Projects/Balloons-Poping-Game
     ```
 3. Open the `index.html` file in a web browser:
 
