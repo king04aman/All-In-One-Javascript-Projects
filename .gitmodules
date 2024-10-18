@@ -1,3 +1,6 @@
 [submodule "project-euler"]
 	path = project-euler
 	url = https://github.com/0xsarwagya/project-euler.git
+[submodule "bigints"]
+	path = bigints
+	url = https://github.com/0xsarwagya/bigints.git
