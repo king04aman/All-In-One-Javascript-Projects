@@ -3,6 +3,8 @@ name: New Contributor Welcome
 permissions:
   issues: write
   pull-requests: write
+  actions: write
+  contents: write
 
 on:
   pull_request:
