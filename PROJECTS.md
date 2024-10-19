@@ -5,5 +5,4 @@
 * [Balloons Poping Game](./Balloons-Poping-Game)
 * [Calculator](./Calculator)
 * [Word-Counter](./Word-Counter)
-* [bigints](./bigints)
-* [project-euler](./project-euler)
+* [submodules](./submodules)
