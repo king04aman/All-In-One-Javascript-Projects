@@ -5,9 +5,16 @@ const form = document.getElementById('form');
 
 const element_result = document.getElementById('element_result');
 let sentence = '';
+let temperatureInput = '';
+function getTypeTemperatureInput(ipt){
+   return temperatureInput = ipt;
+}
 function transformCelsiusToFahrenheit(degCel){
     return (degCel * (9/5) + 32);
 }
+function transformFahrenheitToCelsius(degCel){
+    return (degCel - 32 * 5/9);
+} 
 form.onkeydown = function(e){
     if(e.keyCode == 13){
         e.preventDefault();
@@ -16,10 +23,14 @@ form.onkeydown = function(e){
  };
 function getSentenceResult(){
     const value = +res.value;
- 
+    if(temperatureInput === ''){
+        return element_result.innerHTML = 'Please enter valid conversion';
+    }
     if(isNaN(value)){
         return element_result.innerHTML = 'Input data not correct.';
     }
-       const val = transformCelsiusToFahrenheit(value);
-       return  element_result.innerHTML =  value + ' degrés Celsius donne ' + parseInt(val) + ' Fahrenheit ';
+       const val = temperatureInput === 'Celsius' ? transformCelsiusToFahrenheit(value) : transformFahrenheitToCelsius(value);
+       const labelTemperature = (temperatureInput === 'Celsius') ? ' Fahrenheit' : ' Celsius' ;
+       return element_result.innerHTML = `<p>${value} ${temperatureInput} give ${parseInt(val)} ${labelTemperature}</p>`;
+
 }
