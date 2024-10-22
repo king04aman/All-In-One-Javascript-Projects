@@ -1,19 +1,34 @@
-# Convertor temperator
-**A temperature convertor built using HTML, CSS, and JavaScript**  
-This project allows users to make conversion temperature
+# Temperature Converter
 
-### Functionalities
-- **Basic Operations**: Supports addition, subtraction, multiplication, and division.
-- **Clear Functionality**: Allows users to clear the display.
-- **Error Handling**: Displays an error message for invalid operations.
+**A simple temperature converter built using HTML, CSS, and JavaScript**  
+This project allows users to convert temperatures between different units (Celsius, Fahrenheit).
+
+### Features
+- **Temperature Conversion**: Users can choose between different temperature units (Celsius, Fahrenheit, Kelvin).
+- **Dynamic Calculation**: Users can enter a temperature value, select the conversion type, and the result will be displayed instantly.
+- **Error Handling**: Displays an error message for invalid inputs (e.g., non-numeric values).
 
 ## Description
-This JavaScript Desktop Calculator is a simple and user-friendly web application. It features a straightforward interface where users can input numbers and operators using buttons. The calculator evaluates the expression when the user clicks the "=" button and displays the result. If the input is invalid, it shows an error message. The design is clean, ensuring a pleasant user experience.
+This temperature converter allows users to easily switch between Celsius, Fahrenheit. The user can input a value and choose the desired conversion operation. The result is displayed dynamically on the screen.
+
+The project uses simple HTML for structuring the page, CSS for styling and enhancing the user experience, and JavaScript to handle all the logic and perform the conversions in real-time.
 
 ## Prerequisites
-- `HTML`: Used for structuring the convertor interface.
-- `CSS`: Used for styling the convertor interface and making it visually appealing.
-- `JavaScript`: Handles user operations and show result.
+Before running this project, you need to have a basic understanding of the following technologies:
+- **HTML**: Used for structuring the user interface of the temperature converter.
+- **CSS**: Used to style the interface and make it visually appealing.
+- **JavaScript**: Handles the logic of temperature conversion and displays results based on user inputs.
+
+## How to Use
+1. Open the HTML file in your web browser.
+2. Enter the temperature value you want to convert.
+3. Select the type of conversion (Celsius to Fahrenheit, Fahrenheit to Celsius, etc.).
+4. The converted value will be displayed automatically.
+
+## Installation
+To run this project locally:
+1. Clone the repository or download the files.
+2. Open `index.html` in any web browser.
 
 ## Installing Instructions
 Explain how to set up and run your package/script on the user's local machine. Include steps like:
@@ -28,4 +43,4 @@ Explain how to set up and run your package/script on the user's local machine. I
 3. Open `index.html` in a web browser.
 
 ## Author
-- Aman Kumar (@[gbasset](https://github.com/gbasset))
+- Basset Gaëtan (@[gbasset](https://github.com/gbasset))

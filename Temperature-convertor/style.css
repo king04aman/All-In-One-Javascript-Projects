@@ -99,8 +99,8 @@ button{
     background-color: #dddddd;
     display: block;
     text-align: center;
-    height: 50px; /* Exemple de hauteur fixe */
-    line-height: 50px; /* La même que la hauteur */
+    height: 50px;
+    line-height: 50px; 
 }
 button.selected {
     color: #3300ff;
