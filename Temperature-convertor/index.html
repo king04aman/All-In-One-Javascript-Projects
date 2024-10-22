@@ -13,14 +13,18 @@
     <form action="" method="post" id="form">
         <h2 >Type of conversion</h2>
         <div class="btn-section">
-            <button type="button" onclick="getTypeTemperatureInput('Celsius');">Celsius</button>
-            <button type="button" onclick="getTypeTemperatureInput('Fahrenheit');">Fahrenheit </button>
+            <button type="button" 
+            class="Celsius"
+            onclick="getTypeTemperatureInput('Celsius');">Celsius</button>
+            <button 
+            class="Fahrenheit"
+            type="button" onclick="getTypeTemperatureInput('Fahrenheit');">Fahrenheit </button>
         </div>
         <div class="input-section">
             <label for="response">Temperature</label>
             <input type="text" name="response" id="response"  placeholder="12">
         </div>
-        <button type="button" onclick="getSentenceResult();">Submit</button>
+        <button id="btn-submit" type="button" onclick="getSentenceResult();">Submit</button>
         <section id="element_result" style="font-size: larger;">
     
         </section>

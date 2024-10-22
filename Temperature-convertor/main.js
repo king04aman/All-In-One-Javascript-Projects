@@ -2,11 +2,20 @@
 
 const res = document.getElementById('response');
 const form = document.getElementById('form');
-
+const celsiusBtn = document.querySelector('.Celsius');
+const fahrenheitBtn = document.querySelector('.Fahrenheit');
 const element_result = document.getElementById('element_result');
 let sentence = '';
 let temperatureInput = '';
+
 function getTypeTemperatureInput(ipt){
+    if(ipt === 'Celsius'){
+        fahrenheitBtn.classList.remove('selected')
+        celsiusBtn.classList.add('selected');
+    }else{
+        fahrenheitBtn.classList.add('selected');
+        celsiusBtn.classList.remove('selected')
+    }
    return temperatureInput = ipt;
 }
 function transformCelsiusToFahrenheit(degCel){
@@ -31,6 +40,6 @@ function getSentenceResult(){
     }
        const val = temperatureInput === 'Celsius' ? transformCelsiusToFahrenheit(value) : transformFahrenheitToCelsius(value);
        const labelTemperature = (temperatureInput === 'Celsius') ? ' Fahrenheit' : ' Celsius' ;
-       return element_result.innerHTML = `<p>${value} ${temperatureInput} give ${parseInt(val)} ${labelTemperature}</p>`;
+       return element_result.innerHTML = `<p class='response'>${value} ${temperatureInput} give ${parseInt(val)} ${labelTemperature}</p>`;
 
 }

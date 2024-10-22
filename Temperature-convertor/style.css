@@ -69,10 +69,9 @@ button{
     min-height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
+    justify-content: space-around;
+    height: 400px;
     padding: 35px;
-  
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
@@ -81,8 +80,29 @@ button{
 .input-section{
     display: flex;
     flex-direction: column;
+    margin: 10px 3px;
 }
 .input-section label{
    font-weight: bold;
    margin-bottom: 5px;
+}
+#btn-submit{
+    width: 120px;
+    text-align: center;
+    margin: 10px auto;
+}
+.response{
+    color: red;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    background-color: #dddddd;
+    display: block;
+    text-align: center;
+    height: 50px; /* Exemple de hauteur fixe */
+    line-height: 50px; /* La même que la hauteur */
+}
+button.selected {
+    color: #3300ff;
+    border-color: #3300ff; 
 }
