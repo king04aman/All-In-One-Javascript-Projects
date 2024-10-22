@@ -11,8 +11,16 @@
     <h1>Temperature convertor</h1>
 
     <form action="" method="post" id="form">
-        <label for="response">Temperature</label>
-        <input type="text" name="response" id="response">
+        <h2 >Type of conversion</h2>
+        <div class="btn-section">
+            <button type="button" onclick="getSentenceResult();">Celsius</button>
+            <button type="button" onclick="getSentenceResult();">Fahrenheit </button>
+
+        </div>
+        <div class="input-section">
+            <label for="response">Temperature</label>
+            <input type="text" name="response" id="response"  placeholder="12">
+        </div>
         <button type="button" onclick="getSentenceResult();">Submit</button>
     </form>
     <section id="element_result" style="font-size: larger;">

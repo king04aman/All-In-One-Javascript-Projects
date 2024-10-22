@@ -43,20 +43,30 @@ button{
     transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
     background: #fff;
     color: #222222;
-}
-:hover {
+}:hover {
     border-color: #000000;
     background: #f7f7f7;
 }
+.btn-section {
+    display: flex;
+    justify-content: space-around;
+}
+.btn-section button{
+    width: 150px;
+    color: #f7f7f7;
+    background-color: #86b0ff;
+    text-align: center;
+
+}:hover {
+    border-color: #000000;
+}
 #form{
-    
-    max-width: 300px;
+    max-width: 500px;
+    min-width: 450px;
     min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
-    max-width: 500px;
     height: 300px;
     padding: 35px;
   
@@ -64,4 +74,12 @@ button{
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
     box-shadow: 0px 4px 6px 0px rgba(50,50,93,0.11) , 0px 1px 3px 0px rgba(0,0,0,0.08);
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+}
+.input-section label{
+   font-weight: bold;
+   margin-bottom: 5px;
 }
