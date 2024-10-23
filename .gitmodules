@@ -4,3 +4,6 @@
 [submodule "submodules/bigints"]
 	path = submodules/bigints
 	url = https://github.com/0xsarwagya/bigints.git
+[submodule "submodules/RAG-Next.js"]
+	path = submodules/RAG-Next.js
+	url = https://github.com/RebackkHQ/NextJSRAG.git
