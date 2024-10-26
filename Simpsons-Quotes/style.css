@@ -31,6 +31,7 @@ h1{
     justify-content: center;
     text-align: center;
     width: 500px;
+    min-height: 350px;
 }
 #quoteText{
     font-size: larger;
@@ -76,6 +77,7 @@ img.visible {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    margin-bottom: 10px;
 }
 
 .btn_class:focus {
@@ -106,14 +108,14 @@ img.visible {
 
 .loader {
     border: 8px solid #f3f3f3;
-    border-top: 8px solid #3498db;
+    border-top: 8px solid #ff001a;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     animation: spin 1s linear infinite;
-    position: absolute;
+    /*position: absolute;*/
     top: 50%;
-    left: 50%;
+    margin: 60px auto 10px auto;
     transform: translate(-50%, -50%);
     display: none;
 }
