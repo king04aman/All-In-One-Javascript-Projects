@@ -1,5 +1,6 @@
     <!DOCTYPE html>
     <html lang="en">
+    <script src="main.js"></script>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,17 @@
         <title>Simpsons Quotes</title>
     </head>
     <body>
-    <h1>Random Simpsons Quotes</h1>
-    <button id="fetchQuote" onclick="getQuote()">Get a New Quote</button>
-        <div class="quote-box" id="quoteBox">
-            <p class="quote" id="quoteText">Click the button to get a quote!</p>
-            <p class="character" id="characterName"></p>
-        </div>
-    </body>
-    <script src="main.js"></script>
+    <section class="container">
+        <h1>Random Simpsons Quotes</h1>
+        <div id="loader" class="loader"></div>
+        <button id="fetchQuote"  class="btn_class" onclick="getQuote()">Get a New Quote</button>
+            <div class="quote-box" id="quoteBox">
+                <img src="data:," class="image" aria-label="character" />
+                <div class="quote_section">
+                    <p class="quote" id="quoteText">Click the button to get a quote!</p>
+                    <p class="character" id="characterName"></p>
+                </div>
+            </div>
+    </section>
+        </body>
     </html>
