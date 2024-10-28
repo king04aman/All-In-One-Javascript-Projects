@@ -7,5 +7,6 @@
 * [DrumKit](./DrumKit)
 * [Simpsons-Quotes](./Simpsons-Quotes)
 * [Temperature-convertor](./Temperature-convertor)
+* [ToDo App IndexedDB](./ToDo-App-IndexedDB)
 * [Word-Counter](./Word-Counter)
 * [submodules](./submodules)
