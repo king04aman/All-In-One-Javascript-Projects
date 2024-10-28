@@ -7,7 +7,8 @@ body {
     justify-content: center;
     height: 100vh;
 }
-input{
+
+input {
     border: 0;
     outline: 0;
     color: rgb(60, 66, 87);
@@ -20,20 +21,23 @@ input{
     padding: 4px 8px;
     min-height: 28px;
     vertical-align: middle;
-    transition: background-color .24s,box-shadow .24s;
+    transition: background-color .24s, box-shadow .24s;
     transition-property: background-color, box-shadow;
     transition-duration: 0.24s, 0.24s;
     transition-timing-function: ease, ease;
     transition-delay: 0s, 0s;
 }
-:focus{
+
+:focus {
     box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(58 151 212 / 36%) 0px 0px 0px 4px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
 }
-h1,h2{
+
+h1, h2 {
     color: #86b0ff;
     text-align: center;
 }
-button{
+
+button {
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -46,24 +50,31 @@ button{
     transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
     background: #fff;
     color: #222222;
-}:hover {
+}
+
+:hover {
     border-color: #000000;
     background: #f7f7f7;
 }
+
 .btn-section {
     display: flex;
     justify-content: space-around;
 }
-.btn-section button{
+
+.btn-section button {
     width: 150px;
     color: #f7f7f7;
     background-color: #86b0ff;
     text-align: center;
 
-}:hover {
+}
+
+:hover {
     border-color: #000000;
 }
-#form{
+
+#form {
     max-width: 500px;
     min-width: 450px;
     min-height: 200px;
@@ -75,23 +86,27 @@ button{
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
-    box-shadow: 0px 4px 6px 0px rgba(50,50,93,0.11) , 0px 1px 3px 0px rgba(0,0,0,0.08);
+    box-shadow: 0px 4px 6px 0px rgba(50, 50, 93, 0.11), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
 }
-.input-section{
+
+.input-section {
     display: flex;
     flex-direction: column;
     margin: 10px 3px;
 }
-.input-section label{
-   font-weight: bold;
-   margin-bottom: 5px;
+
+.input-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
-#btn-submit{
+
+#btn-submit {
     width: 120px;
     text-align: center;
     margin: 10px auto;
 }
-.response{
+
+.response {
     color: red;
     font-size: x-large;
     font-weight: 900;
@@ -100,9 +115,10 @@ button{
     display: block;
     text-align: center;
     height: 50px;
-    line-height: 50px; 
+    line-height: 50px;
 }
+
 button.selected {
     color: #3300ff;
-    border-color: #3300ff; 
+    border-color: #3300ff;
 }
