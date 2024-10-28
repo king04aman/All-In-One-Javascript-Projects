@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#clipboard{
+    opacity: 0;
+}
