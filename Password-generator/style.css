@@ -12,6 +12,9 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
+
+
+
 .input_class {
     border: 0;
     outline: 0;
@@ -46,6 +49,16 @@ h1, h2 {
 }
 #clipboard{
     opacity: 0;
+    display: flex;
+    width: 20%;
+    margin: 10px auto;
+    text-align: center;
+}
+#result.copied{
+    color: #0bfb68;
+}
+#clipboard.visible   {
+    opacity: 1;
 }
 
 .settings{

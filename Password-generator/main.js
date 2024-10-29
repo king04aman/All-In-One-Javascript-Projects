@@ -19,6 +19,7 @@ clipboardBtn.addEventListener('click', () => {
     const password = resultEl.innerText
     if (!password) return
     navigator.clipboard.writeText(password)
+    resultEl.classList.add('copied')
 })
 
 generateEl.addEventListener('click', () => {
@@ -30,6 +31,7 @@ generateEl.addEventListener('click', () => {
     const text = textEl.value
 
     resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, text, length)
+    clipboardBtn.classList.add('visible')
 })
 
 function generatePassword(lower, upper, number, symbol, text, length) {
@@ -49,7 +51,7 @@ function generatePassword(lower, upper, number, symbol, text, length) {
         })
     }
 
-
+    resultEl.classList.remove('copied')
     return generatedPassword.slice(0, length)
 }
 
