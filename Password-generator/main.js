@@ -50,9 +50,7 @@ function generatePassword(lower, upper, number, symbol, text, length) {
     }
 
 
-    const finalPassword = generatedPassword.slice(0, length)
-
-    return finalPassword
+    return generatedPassword.slice(0, length)
 }
 
 function getRandomLower() {

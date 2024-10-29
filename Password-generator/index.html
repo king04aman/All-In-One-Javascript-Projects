@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="./style.css" />
-    <title>Password Generator</title>
+    <title> Password Generator</title>
 </head>
 <body>
 <div class="container">
-    <h2>Password Generator</h2>
+    <h2>Strong password Generator</h2>
     <span id="result"></span>
     <div class="result-container">
         <button class="btn" id="clipboard">
@@ -17,35 +17,35 @@
         </button>
     </div>
     <div class="settings">
-        <div class="setting">
-            <label>Password Length</label>
-            <input type="number" id="length" min="4" max="20" value="20">
+        <div class="setting ">
+            <label >Length</label>
+            <input type="number" id="length" min="4" max="20" value="20"  >
         </div>
-        <div class="setting">
-            <label>Include uppercase letters</label>
-            <input type="checkbox" id="uppercase" checked>
+        <div class="setting checkbox-wrapper-14">
+            <label for="uppercase">Include uppercase letters</label>
+            <input type="checkbox" id="uppercase" checked class="switch">
         </div>
-        <div class="setting">
-            <label>Include lowercase letters</label>
-            <input type="checkbox" id="lowercase" checked>
+        <div class="setting checkbox-wrapper-14">
+            <label for="lowercase">Include lowercase letters</label>
+            <input type="checkbox" id="lowercase" checked class="switch">
         </div>
-        <div class="setting">
-            <label>Include numbers</label>
-            <input type="checkbox" id="numbers" checked>
+        <div class="setting checkbox-wrapper-14">
+            <label for="numbers">Include numbers</label>
+            <input type="checkbox" id="numbers" checked class="switch">
         </div>
-        <div class="setting">
-            <label>Include symbols</label>
-            <input type="checkbox" id="symbols" checked>
+        <div class="setting checkbox-wrapper-14">
+            <label for="symbols">Include symbols</label>
+            <input type="checkbox" id="symbols" checked class="switch">
         </div>
-        <div class="setting">
+        <div class="text">
             <label>Include text</label>
-            <input type="text" id="text" >
+            <input type="text" id="text" class="input_class">
         </div>
+        <button class="btn btn-large" id="generate">
+            Generate Password
+        </button>
     </div>
 
-    <button class="btn btn-large" id="generate">
-        Generate Password
-    </button>
 </div>
 <script src="./main.js"></script>
 </body>
