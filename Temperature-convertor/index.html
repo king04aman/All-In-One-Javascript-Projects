@@ -19,10 +19,24 @@
             <button 
             class="Fahrenheit"
             type="button" onclick="getTypeTemperatureInput('Fahrenheit');">Fahrenheit </button>
+            <button
+            class="Kelvin"
+            type="button" onclick="getTypeTemperatureInput('Kelvin');">Kelvin  </button>
         </div>
         <div class="input-section">
             <label for="response">Temperature</label>
             <input type="text" name="response" id="response"  placeholder="12">
+        </div>
+        <div class="btn-section">
+            <button type="button"
+                    class="Celsius_output"
+                    onclick="getTypeTemperatureOutput('Celsius');">Celsius</button>
+            <button
+                    class="Fahrenheit_output"
+                    type="button" onclick="getTypeTemperatureOutput('Fahrenheit');">Fahrenheit </button>
+            <button
+                    class="Kelvin_output"
+                    type="button" onclick="getTypeTemperatureOutput('Kelvin');">Kelvin  </button>
         </div>
         <button id="btn-submit" type="button" onclick="getSentenceResult();">Submit</button>
         <section id="element_result" style="font-size: larger;">
