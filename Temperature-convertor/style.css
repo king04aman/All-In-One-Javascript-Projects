@@ -36,7 +36,9 @@ h1, h2 {
     color: #86b0ff;
     text-align: center;
 }
-
+label {
+    font-size: 17px;
+}
 button {
     display: inline-block;
     outline: none;
@@ -59,7 +61,9 @@ button {
 
 .btn-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .btn-section button {
@@ -75,13 +79,13 @@ button {
 }
 
 #form {
-    max-width: 500px;
+    max-width: 600px;
     min-width: 450px;
     min-height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 400px;
+    height: 500px;
     padding: 35px;
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
