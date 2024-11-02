@@ -5,6 +5,7 @@
 * [Balloons Poping Game](./Balloons-Poping-Game)
 * [Calculator](./Calculator)
 * [DrumKit](./DrumKit)
+* [Password-generator](./Password-generator)
 * [Simpsons-Quotes](./Simpsons-Quotes)
 * [Temperature-convertor](./Temperature-convertor)
 * [ToDo App IndexedDB](./ToDo-App-IndexedDB)
